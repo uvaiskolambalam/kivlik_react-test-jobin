@@ -1,0 +1,25 @@
+.Home{
+    position: relative;
+    height: 100%;
+}
+.banner{
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.Home_title{
+    padding: 5rem 9.5rem 2rem 9.5rem;
+}
+@media screen and (max-width:766px){
+    .Home_title{
+        padding: 0rem 9.5rem 2rem 9.5rem;
+        
+    }
+}
+@media screen and (max-width:860px){
+    .Home_title{
+        padding: 2rem;
+
+    }
+}

@@ -1,0 +1,111 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.footer_top{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color:  #F6F6F6;
+    /* padding: 1rem; */
+    padding: 2rem 9.5rem 2rem 9.5rem;
+}
+.footer_top_left{
+    /* width: 17rem; */
+    width: 30%;
+    font-size: 12px;
+    line-height: 1.4rem;
+
+}
+.footer_top_left img{
+    width: 50%;
+}
+.footer_top_left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer_top_center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer_top_center ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer_top_center li{
+    /* list-style: none; */
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4rem;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+ 
+.footer_top_right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer_top_right_one{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer_top_right_one :nth-child(2){
+ font-size: 20px;
+}
+.footer_top_right_two{
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;}
+.footer_top_right_two p{
+    font-size: 12px;
+}
+.footer_icons{
+    display: flex;
+    gap: 1rem;
+    color: #20404A;
+}
+.footer_plyaStore_icons{
+    display: flex;
+    gap: 1rem;
+}
+.footer_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    padding: .5rem 9.5rem;
+}
+@media screen and (max-width:860px){
+    .footer_top{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        background-color:  #F6F6F6;
+        /* padding: 1rem; */
+        padding: 2rem;
+    }
+    .footer_top{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .footer_top_left{
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px){
+    
+    .footer_bottom{
+        flex-direction: column;
+        padding: 1rem;
+    }
+}

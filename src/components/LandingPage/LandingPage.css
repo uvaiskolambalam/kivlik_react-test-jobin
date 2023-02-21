@@ -1,0 +1,164 @@
+
+
+.LnadingPage{
+    display: flex;
+    flex-direction: column;
+   
+}
+.LangingPage_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.LangingPage_top_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.LangingPage_top_right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.LangingPage_top_right{
+    width: 15rem;
+    overflow: hidden;
+}
+
+
+
+.LangingPage_top_left h5{
+    font-size: 40px;
+}
+.LangingPage_top_left h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.LangingPage_bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 9.5rem 2rem 9.5rem;
+}
+.LangingPage_bottom h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+.LangingPage_bottom p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    gap: .5rem;
+    /* flex: 1; */
+    
+}
+input[type="file"]{
+    display: none;
+    font-size: 0;
+    visibility: none;
+}
+
+
+.LandingPage_form{
+    display: flex;
+    gap: 1rem;
+}
+.input-group label{
+    font-size: 12px;
+    color: var(--fontColor1);
+    
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.input-group span{
+    font-size: 12px;
+}
+
+
+.chooseFile{
+    width: 14rem;
+    padding: .5rem;
+    background-color:#BFBFBF;
+    border-radius: 10px;
+}
+.input-group input:focus{
+    border: 1px solid #04A8E8;
+}
+.chooseFile label{
+    color: var(--fontColor1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.LandingPage_btn button{
+    background-color: #04A8E8;
+    color:white;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+.LandingPage_btn button:hover{
+    background-color: var(--fontColor1);
+    color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.LandingPage_form_bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.LandingPage_form_bottom span{
+    font-size: 12px;
+}
+
+
+
+@media screen and (max-width:766px){
+    .LangingPage_top_left{
+        margin-top: -2rem;
+        gap: 2rem;
+    }
+    .LangingPage_top_left p{
+        font-size: 20px;
+        color: red;
+    }
+}
+@media screen and (max-width:928px){
+    .LandingPage_form{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .input-group{
+        width: 100%;
+
+    }
+}
+@media screen and (max-width:860px){
+    .LangingPage_bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    .LangingPage_bottom h5{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
