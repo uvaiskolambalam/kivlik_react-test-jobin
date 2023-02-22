@@ -1,6 +1,5 @@
 import React from 'react'
-import { Footer, LandingPage, Navbar, Title } from '../../components'
-import Banner from '../../components/Banner/Banner'
+import { Banner, Footer, LandingPage, Navbar, Title } from '../../components'
 import './Home.css'
 
 const Home = () => {

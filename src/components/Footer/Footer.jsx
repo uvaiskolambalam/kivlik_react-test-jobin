@@ -44,10 +44,10 @@ const Footer = () => {
                             <i class="bi bi-twitter"></i>
                             <i class="bi bi-youtube"></i>
                         </div>
-                        {/* <div className='footer_plyaStore_icons'>
+                        <div className='footer_plyaStore_icons'>
                             <img src={AppleStore} alt="" />
                             <img src={googlePlay} alt="" />
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>

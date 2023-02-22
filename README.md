@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+
+
+
+iam very happy for completting this project within the deadline
+and also i have fully confidence for my self
+i know i hove to learn a lot of thinks
+i learn sum extra featurs whithin this project
+
+when i get the XD file of this project i confused what can i do
+because Adobe XD is not avilable in my laptop
+after that i convert XD file to figma file
+Not have responsive design file is wasted some time
+
+
+<!-- fetures -->
+use bootstrap icon npm for icons
+and use media quiry for responsive
+use css flex property
+aws amplify for hosting
+create menu list when responsive
+create a function for when open Navbar and click outside of Navbar then Navbar aoutomaticaly close
+
+<!-- Hooks are used -->
+useState()
+useRef()

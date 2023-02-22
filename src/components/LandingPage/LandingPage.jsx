@@ -1,6 +1,5 @@
 import React from 'react'
 import './LandingPage.css'
-import chairImage from '../../Assets/Group 542.png'
 
 const LandingPage = () => {
     return (

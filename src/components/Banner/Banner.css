@@ -70,25 +70,27 @@
     
 }
 @media screen and (max-width:740px){
-    /* .Banner_container{
+   
+    .Banner_container{
         display: flex;
         flex-direction: column;
-    } */
+    }
     .Banner_container p{
-        /* font-size: 300px;
-        color: rgb(68, 32, 32);
-        position: relative; */
-        /* top: 20rem;
-        left: 20rem; */
-        /* position: relative; */
-        position: static;
-        font-size: 50px;
-        color: red;
+        color: rgb(20, 13, 13);
+        position: absolute;
+        top: 9rem;
+        left: 2rem;
+        font-size: 20px;
         
     }
     .Banner_container img{
         display: none;
     }
+}
+@media screen and (max-width:600px){
+ .Banner{
+    height: 10rem;
+ }
 }
 @media screen and (max-width:766px){
     .Banner{
@@ -105,23 +107,21 @@
         height: 23rem;
     }
 }
-@media screen and (max-width:1202px){
+@media screen and (max-width:1202px) and (min-width:740px){
     .Banner{
         height: 22rem;
     }
     
     .Banner_container p{
         font-size: 40px;
-        color: white;
+        color: rgb(255, 255, 255);
         position: absolute;
         top: 15rem;
         left: 16rem;
     }
 }
-@media screen and (max-width:954px){
-    /* .Banner{
-        height: 15rem;
-    } */
+@media screen and (max-width:954px) and (min-width:1202px){
+   
     
     .Banner_container p{
         font-size: 30px;

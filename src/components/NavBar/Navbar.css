@@ -56,16 +56,18 @@
     }
 
 }
+@media screen and (max-width:600px){
+    .Navbar{
+       height: 5rem;
+       /* display: none; */
+    }
+   }
 
 .navBarList li{
     
     list-style: none;
-    /* width: 80%; */
     padding:  0rem 1rem 0rem 1rem;
-    /* margin: ; */
-    /* margin-left: 1rem; */
-    /* align-items: center; */
-    /* padding: .5rem; */
+    
 }
 .navBarList_list{
     width: 100%;
@@ -91,18 +93,14 @@
     background-color: rgb(255, 255, 255);
     
     border-radius: 10px;
-    /* display: none; */
     position: absolute;
     right: 5%;
     top: 4%;
     width: 12rem;
-    /* align-items: start; */
     box-shadow: rgba(99,99,99,0.2) 0px 3px 8px 0px;
 }
 .navBarList_list:hover{
     cursor: pointer;
     background: linear-gradient(90deg, #02A4EF 0%, #20DF95 100%);
-    /* background-color: black; */
-    /* color: red; */
-    /* width: 80%; */
+   
 }
